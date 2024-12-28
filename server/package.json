@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc && node ./dist/main.js",
+    "dev": "npx nodemon -e ts --exec \"npm run compile\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "emailjs-imap-client": "^3.1.0",
+    "express": "^4.21.1",
+    "nedb": "^1.8.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mailparser": "^3.4.5",
+    "@types/nedb": "^1.8.16",
+    "@types/node": "^22.10.1",
+    "@types/nodemailer": "^6.4.17",
+    "cross-env": "^7.0.3",
+    "mailparser": "^3.7.2",
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,25 @@
+# Ignore TypeScript configuration files
+server/ServerInfo.json
+
+# Ignore all zip files
+*.zip
+**/*.zip
+
+**/*.pdf
+*.pdf
+
+# Optionally, ignore other files and folders
+node_modules/
+dist/
+build/
+.env
+
+client/node_modules/
+client/dist/
+client/build
+
+server/node_modules/
+server/dist/
+server/build
+
+M7-client/

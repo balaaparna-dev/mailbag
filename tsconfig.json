@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "ESNext",  // Change to "NodeNext"
+    "target": "es5",
+    "noEmit": false,
+    "outDir": "./dist",
+    "allowJs": true
+  },
+  "files": ["src/main.tsx"]
+}
